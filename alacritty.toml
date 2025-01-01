@@ -10,6 +10,11 @@ padding.y = 5
 decorations = "Full"
 decorations_theme_variant = "Dark" # "Light"
 
+[window.dimensions]
+
+columns = 120
+lines = 27
+
 [font]
 
 normal.family = "Iosevka Term"
