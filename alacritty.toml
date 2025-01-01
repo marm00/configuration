@@ -6,7 +6,7 @@ padding.x = 5
 padding.y = 5
 
 decorations = "Full"
-decorations_theme_variant = "Dark"
+decorations_theme_variant = "Dark" # "Light"
 
 [font]
 
@@ -339,3 +339,38 @@ chars = "\u0002;"
 key = "F"
 mods = "Command"
 chars = "\u0002/"
+
+[[keyboard.bindings]]
+key = "W"
+mods = "Command"
+chars = "\u0002&"  # close tab (kill)
+
+[[keyboard.bindings]]
+key = "T"
+mods = "Command"
+chars = "\u0002c"  # new tab
+
+[[keyboard.bindings]]
+key = "RBracket"
+mods = "Command|Shift"
+chars = "\u0002n"  # select next tab
+
+[[keyboard.bindings]]
+key = "LBracket"
+mods = "Command|Shift"
+chars = "\u0002p"  # select previous tab
+
+[[keyboard.bindings]]
+key = "RBracket"
+mods = "Command"
+chars = "\u0002o"  # select next pane
+
+[[keyboard.bindings]]
+key = "LBracket"
+mods = "Command"
+chars = "\u0002;"  # select last (previously used) pane
+
+[[keyboard.bindings]]
+key = "F"
+mods = "Command"
+chars = "\u0002/"  # search (upwards) (see tmux.conf)
