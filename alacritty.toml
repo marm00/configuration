@@ -1,3 +1,5 @@
+# using alacritty.exe -e wsl -d Debian -u marm tmux
+
 [window]
 
 opacity = 1
