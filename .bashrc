@@ -9,3 +9,5 @@ fi
 # https://github.com/alacritty/alacritty/blob/master/INSTALL.md#bash
 source ~/.bash_completion/alacritty
 
+# Added by `rbenv init` on Fri Jan  3 04:15:09 PM CET 2025
+eval "$(~/.rbenv/bin/rbenv init - --no-rehash bash)"
